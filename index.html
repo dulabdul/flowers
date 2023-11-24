@@ -395,22 +395,32 @@
     <div
       class="content"
       style="position: fixed; top: 0; padding-top: 24px">
-      <div class="content_title">
+      <div
+        class="content_title"
+        style="line-height: 24px; text-align: center">
         <a href="index1.html">
-          <h1 style="color: #fff; font-size: 14px">
+          <h1
+            style="color: #fbbf24; font-size: 14px; text-decoration: underline">
             Klik ini kalau udah puas liatnya
           </h1>
-          <p style="color: #fff">
-            Jangan lupa layarnya diklik atau di tap-tap yaa
-          </p>
         </a>
+        <p style="color: #fff">
+          Jangan lupa layarnya diklik atau di tap-tap yaa
+        </p>
+        <p style="color: #fff">klik kalau lagunya ga muter ya</p>
       </div>
     </div>
-    <audio
-      id="musicplayer"
-      autoplay>
-      <source src="niki.mp3" />
-    </audio>
+    <div style="position: absolute; top: 100px">
+      <audio
+        id="musicplayer"
+        controls
+        autoplay
+        loop>
+        <source
+          src="niki.mp3"
+          type="audio/mpeg" />
+      </audio>
+    </div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="index.js"></script>
   </body>
